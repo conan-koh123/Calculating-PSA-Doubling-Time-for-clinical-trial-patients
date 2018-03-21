@@ -39,5 +39,11 @@ Result from the code
 <img height = "300", src = "https://github.com/conan-koh123/Calculating-PSA-Doubling-Time-for-clinical-trial-patients/blob/master/Result%20of%20sample%20data.jpg"/>
 </br>
 
+==
 
+Reference used:
+- Nomogram: https://www.mskcc.org/nomograms/prostate/psa_doubling_time
+- Referred R code: http://palpable-prostate.blogspot.sg/2007/02/psa-doubling-time-r-code.html 
+- Equations of PSA Doubling time: http://www.meducator3.net/algorithms/content/psa-doubling-time-psadt
+- Sample dataset: Vickers, A. J., & Brewster, S. F. (2012). PSA Velocity and Doubling Time in Diagnosis and Prognosis of Prostate Cancer. British Journal of Medical & Surgical Urology, 5(4), 162–168. http://doi.org/10.1016/j.bjmsu.2011.08.006
 
