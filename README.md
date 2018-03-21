@@ -29,6 +29,12 @@ Since the code uses log2 in its formula:
 > PSA doubling time = 1/ slope of log2(PSA) vs date of PSA recorded
 
 ==
+
 Result from the code
+
+<br>
+<img height = "300", src = "https://github.com/conan-koh123/Calculating-PSA-Doubling-Time-for-clinical-trial-patients/blob/master/Result%20of%20sample%20data.jpg"/>
+</br>
+
 
 
