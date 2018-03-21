@@ -38,7 +38,6 @@ Result from the code
 <br>
 <img height = "300", src = "https://github.com/conan-koh123/Calculating-PSA-Doubling-Time-for-clinical-trial-patients/blob/master/Result%20of%20sample%20data.jpg"/>
 </br>
-
 ==
 
 Reference used:
