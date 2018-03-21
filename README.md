@@ -5,4 +5,4 @@ I was asked by my Principal Investigator to calculate PSA doubling time for 200+
 Formula and Logic to calculating PSA doubling time in the code:
 (Modified from http://palpable-prostate.blogspot.sg/2007/02/psa-doubling-time-r-code.html)
 
-The assumption for calculating PSA doubling time is that the increase in PSA is a positive exponential one with the formula:
+- The assumption for calculating PSA doubling time is that the increase in PSA is a positive exponential one with the formula:
