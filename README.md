@@ -12,10 +12,14 @@ The assumption for calculating PSA doubling time is that the increase in PSA is 
 
 The equation is manipulated in the following manner to obtain PSA doubling time:
 > PSA now/ initial PSA = e ^ (k x time interval in days) = 2 (2 as PSA is doubled)
+
 > In 2 = k x time interval in days (natural log on both sides)
+
 > PSA doubling time = In 2/ k
+
 > PSA doubling time = In 2/ slope of In PSA vs time interval
 
 Since the code uses log2 in its formula:
 > PSA doubling time = log2(2)/ slope of log2(PSA) vs time interval
+
 > PSA doubling time = 1/ slope of log2(PSA) vs date of PSA recorded
