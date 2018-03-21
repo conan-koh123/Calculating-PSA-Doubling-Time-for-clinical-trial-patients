@@ -1,4 +1,4 @@
-# Calculating PSA Doubling Time for clinical trial patients (In months)
+# Calculating PSA Doubling Time for a group of patients (In months)
 
 I was asked by my Principal Investigator to calculate Prostate Specific Antigen (PSA) doubling time (in months), which is the time taken for PSA to double from its initial value, for 500+ patients with prostate cancer. As calculating PSA doubling time is complex since it involves transforming data into logarithm form and plotting regression lines, it will take months for me to calculate PSA doubling time using a nomogram. Hence, with reference to this website (http://palpable-prostate.blogspot.sg/2007/02/psa-doubling-time-r-code.html), I modified the code such that it can calculate the PSA doubling time of many patients and put the result in CSV format. The result is close to that from a nomogram created by Memorial Sloan Kettering Cancer Centre (https://www.mskcc.org/nomograms/prostate/psa_doubling_time).
 
