@@ -1,6 +1,10 @@
 # Calculating PSA Doubling Time for clinical trial patients (In months)
 
-I was asked by my Principal Investigator to calculate PSA doubling time (in months) for 200+ patients with prostate cancer. As calculating PSA doubling time is complex since it involves transforming data into logarithm form and plotting regression lines, it will take months for me to calculate PSA doubling time using a nomogram (https://www.mskcc.org/nomograms/prostate/psa_doubling_time). Hence, with reference to this website (http://palpable-prostate.blogspot.sg/2007/02/psa-doubling-time-r-code.html), I modified the code such that it can calculate the PSA doubling time of many patients and put the result in CSV format. The code in this folder is named as "Prostate_cancer_Calculating PSA doubling time for many patients.R". The sample data to test the code is in this folder as "Prostate_cancer_sample_data.csv"As it is my first time attempting to add values to a data frame in R, the resulting dataset may require some manipulation using Microsoft Excel. 
+I was asked by my Principal Investigator to calculate PSA doubling time (in months) for 200+ patients with prostate cancer. As calculating PSA doubling time is complex since it involves transforming data into logarithm form and plotting regression lines, it will take months for me to calculate PSA doubling time using a nomogram (https://www.mskcc.org/nomograms/prostate/psa_doubling_time). Hence, with reference to this website (http://palpable-prostate.blogspot.sg/2007/02/psa-doubling-time-r-code.html), I modified the code such that it can calculate the PSA doubling time of many patients and put the result in CSV format. 
+
+The code in this folder is named as "Prostate_cancer_Calculating PSA doubling time for many patients.R". The sample data to test the code is in this folder as "Prostate_cancer_sample_data.csv"As it is my first time attempting to add values to a data frame in R, the resulting dataset may require some manipulation using Microsoft Excel. 
+
+As it was my first time adding data to a dataframe in R, the resulting dataset may require manipulation in Microsoft Excel (as shown below) 
 
 ==
 
@@ -23,3 +27,8 @@ Since the code uses log2 in its formula:
 > PSA doubling time = log2(2)/ slope of log2(PSA) vs time interval
 
 > PSA doubling time = 1/ slope of log2(PSA) vs date of PSA recorded
+
+==
+Result from the code
+
+
